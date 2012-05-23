@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% end %}
+
+{% block content %}
+  <h1>tornadoze!</h1>
+  {% if dbname %}
+    <h3>tables in {{ dbname }}</h3>
+    <ul>
+    {% for t in tables %}
+      <li>{{ t }}</li>
+    {% end %}
+    </ul>
+  {% end %}
+{% end %}

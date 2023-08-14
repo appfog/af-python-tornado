@@ -1,2 +1,2 @@
-tornado==2.2.1
+tornado==6.3.3
 MySQL-python==1.2.3
